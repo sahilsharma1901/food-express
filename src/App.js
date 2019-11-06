@@ -1,11 +1,14 @@
 import React from "react";
 import styles from "./App.module.css"
+import HomePage from './components/HomePage/HomePage';
+
 function App() {
   return (
     <div className={styles.App}>
-      <h1>Zomato Clone Banaayenge!</h1>
+      <HomePage/>
     </div>
   );
 }
 
 export default App;
+

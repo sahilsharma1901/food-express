@@ -1,0 +1,26 @@
+:root{
+    --secondary-color: #33373D;
+}
+
+Footer{
+    padding: 20px;
+    background-color:var(--secondary-color);
+    position: relative;
+    width:100%;
+    bottom:0;
+}
+
+Footer ul li{
+    margin-right: 30px;
+    display:inline;
+}
+
+Footer a{
+    color:white;
+    text-decoration: none;
+}
+
+Footer div{
+    text-align: center;
+    color:white;
+}
