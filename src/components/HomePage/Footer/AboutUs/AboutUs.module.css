@@ -1,0 +1,20 @@
+.Parent{
+    font-family: comic sans ms;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    text-align:center;
+}
+
+.Title{
+    display: block;
+}
+
+.About{
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.Team{
+
+}

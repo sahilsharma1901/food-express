@@ -6,12 +6,13 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
+    transition: all .9s ease-in-out;
+}
+.Image:hover{
+    transform: scale(1.03);
 }
 
 .Explore{
-    color:white;
-    font-size:30px;
     position: absolute;
     top:80%;
     left:44%;

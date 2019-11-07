@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 const Header = () => (
     <div className={styles.Header}>
         <header>
-            <a href="/">zomato</a>
+            <a href="/">FoodExpress</a>
             <button>Create an Account</button>
             <button>Login</button>
         </header>
