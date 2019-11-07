@@ -1,5 +1,5 @@
 .Image{
-    width:100%;
+    width:100vw;
     height:100vh;
     background-image: url("../../../assets/images/pizza.jpg");
     background-repeat:no-repeat;
@@ -27,6 +27,7 @@
     color:white;
     outline:none;
     z-index:-10;
+    transition: all .3s ease;
 }
 
 .Explore button:hover{
@@ -71,6 +72,7 @@
     text-align: center;
     content:'';
     width:20%;
+    font-size:1.2rem;
 }
 
 .Filler p{
