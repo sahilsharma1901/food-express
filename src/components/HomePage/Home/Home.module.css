@@ -35,21 +35,21 @@
   color: white;
   position: absolute;
   top: 8%;
-  left: 0;
+  left: 30px;
   z-index: 500;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 40px;
-  padding: 0 0 0 10px;
 }
 
 .Tagline p {
   color: white;
   position: absolute;
   top: 18%;
-  left: 0;
+  left: 30px;
   z-index: 500;
   font-size: 20px;
-  padding: 0 0 0 12px;
+  margin-top: 30px;
+  font-style: italic;
 }
 
 .CardsContainer {
