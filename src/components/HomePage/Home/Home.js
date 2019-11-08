@@ -14,6 +14,18 @@ const Home = () => (
             <div className={styles.Explore}>
                 <button>Order Now</button>
             </div>
+            <ul className={styles.Slideshow}>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
         <div className={styles.Filler}>
             <p>How our App works</p>
