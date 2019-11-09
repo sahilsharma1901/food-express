@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Login from './components/Login/Login';
 import Shops from './components/Shops/Shops';
-import { Route, Switch } from 'react-router-dom';
 import AboutUs from "./components/HomePage/Footer/AboutUs/AboutUs";
 import ContactUs from "./components/HomePage/Footer/ContactUs/ContactUs";
 import PrivacyPolicy from "./components/HomePage/Footer/PrivacyPolicy/PrivacyPolicy";

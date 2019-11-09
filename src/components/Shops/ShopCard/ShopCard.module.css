@@ -1,17 +1,18 @@
 .Shopcard{
     display: flex;
     padding: 10px;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-bottom: 20px;
     width: fit-content;
     border: 1px solid gray;
+    cursor: pointer;
 }
 
 .Image{
     width: 150px;
     border-radius: 50%;
 }
-    /* margin-left: 20px; */
+
 .Name{   
     align-self: flex-start;
     justify-self: flex-start;
