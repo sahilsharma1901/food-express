@@ -33,6 +33,7 @@ Header{
     color:white;
     font-size:1rem;
     float: right;
+    outline:none;
     cursor:pointer;
     text-decoration: none;
     background-color: transparent;

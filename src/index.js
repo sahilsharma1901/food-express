@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Login from './components/Login/Login';
 import Shops from './components/Shops/Shops';
 import AboutUs from "./components/HomePage/Footer/AboutUs/AboutUs";
 import ContactUs from "./components/HomePage/Footer/ContactUs/ContactUs";
@@ -15,7 +14,6 @@ const app = (
   <Router>
     <Switch>
       <Route path="/about" component={AboutUs} />
-      <Route path="/login" component={Login} />
       <Route path="/shops" component={Shops} />
       <Route path="/contact" component={ContactUs} />
       <Route path="/policy" component={PrivacyPolicy} />

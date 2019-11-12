@@ -1,0 +1,64 @@
+h3{
+    text-align:center;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.Login input{
+    display:block;
+    width:80%;
+    border:1px solid gray;
+    border-radius: 5px;
+    margin:15px auto;
+    padding: 10px;
+    outline:none;
+}
+
+.Login input:focus{
+    border: 2px solid #777;
+}
+
+.Login button{
+    display:block;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    width:20%;
+    font-weight: 500;
+    background-color: white;
+    margin:15px auto;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    outline:none;
+    margin-bottom: 25px ;
+    cursor: pointer;
+}
+
+.Login button:hover, .Login a:hover{
+    background-color:#cb202d;
+    color:white;
+}
+
+hr{
+    width:60%;
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+}
+
+#New{
+    display: block;
+    text-decoration:none;
+    padding:10px;
+    width:60%;
+    margin:6px auto;
+    color: black;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}

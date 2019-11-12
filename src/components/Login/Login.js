@@ -1,13 +1,16 @@
 import React from 'react';
 import styles from './Login.module.css';
 
-const Login = () => (
+const Login = (props) => (
     <div className={styles.Login}>
-        <h3>Login</h3>
         <form>
-            <input type="text" placeholder="Your E-mail" name="email"/>
-            <input type="password" placeholder="password" name="password"/>
-            <button type="submit">Login</button>
+            <h3>Login</h3>
+            <input type="text" placeholder="E-mail" name="email"/>
+            <input type="password" placeholder="Password" name="password"/>
+            <button type="Submit">Login</button>
+            <hr/>
+            <p>OR</p>
+            <button id={styles.New} onClick={props.signup}>Create new Account</button>
         </form>
     </div>
 );

@@ -1,0 +1,63 @@
+h3{
+    text-align:center;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.Names {
+    display:inline-block !important;
+    width:35% !important;
+    margin:8px 8px !important;
+    padding: 11px !important;
+    outline:none;
+}
+
+.Signup input{
+    display:block;
+    width:80%;
+    border:1px solid gray;
+    border-radius: 5px;
+    margin:15px auto;
+    padding: 10px;
+    outline:none;
+}
+
+.Signup input:focus{
+    border: 2px solid #777;
+}
+
+.Signup button{
+    display:block;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    width:20%;
+    font-weight: 500;
+    background-color: white;
+    margin:15px auto;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    outline:none;
+    margin-bottom: 25px ;
+    cursor: pointer;
+}
+
+.Signup button:hover, .Signup a:hover{
+    background-color:#cb202d;
+    color:white;
+}
+
+.Signup a{
+    display: block;
+    text-decoration:none;
+    padding:10px;
+    width:60%;
+    margin:6px auto;
+    color: black;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
